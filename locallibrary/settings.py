@@ -22,13 +22,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = '-62lqhz&ztcu%++8^3r#0oc$mp4t_c3t%s+rk91-ibn+b*avqz'
 import os
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag')
+SECRET_KEY = os.environ.get('eu09(ilk6@4”*&^H6G5F=b_2ht@va9OkjHGGFREDs$^J*$D£{{:><LM=')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['quiet-wave-40312.herokuapp.com', '127.0.0.1:8000']
 
 
 # Application definition
